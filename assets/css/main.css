@@ -2141,7 +2141,7 @@ input, select, textarea {
 	    	flex-direction: column;
 	    	align-items: center;
 	    	justify-content: flex-start;
-	    	margin-top: -780px; /* Adjust as needed */
+	    	margin-top: -780px;
 		z-index: 2;
 	}
 	
