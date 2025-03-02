@@ -2146,23 +2146,41 @@ input, select, textarea {
 	}
 	
 	#video {
-	    	width: 90%;
-		height: auto;
-	    	max-width: 1200px;
-		z-index: 2;
+	  	width: 90%; /* Ensure the video takes up 90% of the screen width */
+	  	height: auto; /* Maintain aspect ratio initially */
+	  	max-width: 1200px; /* Prevent the video from growing too large */
+	  	z-index: 2;
 	}
 	
 	/* Default height for video when the width is 1021px or larger */
 	@media (min-width: 1021px) {
-	  video {
-	    height: 67vh; /* You can adjust this value to your needs */
+	  #video {
+	    	width: 90%; /* Keeps width at 90% of the container */
+	    	height: 67vh; /* Use 67% of the viewport height */
 	  }
 	}
 	
 	/* As the window gets smaller, progressively reduce the height */
 	@media (max-width: 1020px) {
-	  video {
-	    height: calc(100vw * 0.67); /* This keeps the aspect ratio of 16:9 */
+	  #video {
+	    	width: 90%; /* Keeps width at 90% of the container */
+	    	height: calc(100vw * 0.67); /* Adjust height based on the viewport width */
+	  }
+	}
+	
+	/* For smaller screens (for example, mobile) */
+	@media (max-width: 768px) {
+	  #video {
+	    	width: 90%;
+	    	height: calc(100vw * 0.6); /* Slightly smaller for smaller screens */
+	  }
+	}
+	
+	/* Even smaller screens */
+	@media (max-width: 480px) {
+	  #video {
+	    	width: 90%;
+	    	height: calc(100vw * 0.5); /* Even smaller for very small screens */
 	  }
 	}
 
