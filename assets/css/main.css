@@ -2164,7 +2164,7 @@ input, select, textarea {
 	@media (max-width: 1020px) {
 	  #video {
 	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: calc(100vw * 0.67); /* Adjust height based on the viewport width */
+	    	height: calc(100vw * 0.4); /* Adjust height based on the viewport width */
 	  }
 	}
 	
@@ -2172,7 +2172,7 @@ input, select, textarea {
 	@media (max-width: 768px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 0.6); /* Slightly smaller for smaller screens */
+	    	height: calc(100vw * 0.4); /* Slightly smaller for smaller screens */
 	  }
 	}
 	
@@ -2180,7 +2180,7 @@ input, select, textarea {
 	@media (max-width: 480px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 0.5); /* Even smaller for very small screens */
+	    	height: calc(100vw * 0.4); /* Even smaller for very small screens */
 	  }
 	}
 
