@@ -2151,16 +2151,24 @@ input, select, textarea {
 	    	padding: 4em 0 2em 0;
 	    	min-height: 100vh; /* Ensure full screen height */
 		background-color: #9d395d;
-		z-index: 1; /* Lower z-index for the background image */
+		z-index: 0; /* Lower z-index for the background image */
+    		display: flex;
+    		flex-direction: column;
+    		justify-content: center; /* Keeps content centered */
 	}
 	.header-image {
-	    	width: 107%;  /* Adjust to full width of the container */
-	    	height: auto; /* Maintain aspect ratio */
+	    	width: 100%;  /* Adjust to full width of the container */
+	    	height: 100%; /* Maintain aspect ratio */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
 	    	top: 0;
 	    	left: 0;
 		z-index: 1; /* Lower z-index for the background image */
+	}
+
+	/* Ensure the content inside the header extends fully */
+	#header {
+	    	padding-bottom: 5em; /* Adjust if needed to push the bottom further */
 	}
 
 
