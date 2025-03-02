@@ -2133,10 +2133,6 @@ input, select, textarea {
 			background: #f6f8fb url("images/image-wrapper.svg");
 		}
 
-	#video {
-	    background: transparent;
-	}
-
 	/*#header-wrapper {
 		background: url("images/PFPBG.jpg") no-repeat center center;
 	    	background-size: cover;/*
