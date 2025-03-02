@@ -1762,14 +1762,31 @@ input, select, textarea {
 
 /* logo */
 #logo img {
+    background: transparent;
+}
+#logo img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+/*#logo img {
+    display: block;
+    margin: 0 auto;
+}
+/*#logo img {
     	position: relative;
-    	width: 200px; /* Adjust as needed */
-    	height: auto; /* Keeps the aspect ratio */
-    	display: block; /* Ensure it behaves as an independent element */
-    	margin-left: -20px; /* Moves it right */
-   	margin-top: -100px; /* Moves it down */
+	left: -50px; /* Adjust as needed */
+    	top: -20px; /* Move up by 20px */
+}
+
+#logo img {
+    display: block; /* Ensure it behaves as an independent element */
+    margin-left: -20px; /* Moves it right */
+    margin-top: -100px; /* Moves it down */
+}
+#logo img {
+    	position: relative;
     	top: -61px; /* Adjust to move it up/down */
-	/*z-index: 4;*/
+	z-index: 4;
 }
 
 
@@ -2137,7 +2154,7 @@ input, select, textarea {
 		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
-	    	width: 106%;  /* Adjust to full width of the container */
+	    	width: 107%;  /* Adjust to full width of the container */
 	    	height: auto; /* Maintain aspect ratio */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
