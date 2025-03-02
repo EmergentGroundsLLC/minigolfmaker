@@ -2147,7 +2147,7 @@ input, select, textarea {
 	
 	#video {
 	    	width: 90%;
-		height: 67vh;
+		height: auto;
 	    	max-width: 1200px;
 		z-index: 2;
 	}
@@ -2162,7 +2162,7 @@ input, select, textarea {
 	/* As the window gets smaller, progressively reduce the height */
 	@media (max-width: 1020px) {
 	  video {
-	    height: calc(100vw * 0.67); /* This keeps the aspect ratio of 16:9 */
+	    height: calc(100vw * 0.2); /* This keeps the aspect ratio of 16:9 */
 	  }
 	}
 
