@@ -2148,6 +2148,7 @@ input, select, textarea {
 	    	width: 65%;
 	    	max-width: 1200px;
 	    	aspect-ratio: 16 / 9;
+		z-index: 2;
 	}
 
 	#header-wrapper {
