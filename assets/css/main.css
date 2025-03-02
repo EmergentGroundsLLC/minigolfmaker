@@ -2140,7 +2140,7 @@ input, select, textarea {
 	    	width: 100%; /* Makes the iframe responsive */
 	    	height: 675px; /* Fixed height for the video */
     		margin-left: 0px; /* Moves it right */
-    		margin-top: -1000px; /* Moves it down */
+    		margin-top: -800px; /* Moves it down */
 	    	z-index: 2;
 	    	display: block; /* Ensures it behaves like a block element */
 	}
