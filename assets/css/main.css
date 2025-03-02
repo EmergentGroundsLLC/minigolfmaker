@@ -2136,17 +2136,17 @@ input, select, textarea {
 		}
 
 	#header-wrapper {
-		position: relative;
-		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-color: #f08c89;
+	    	position: relative;
+	    	padding: 4em 0 2em 0;
+	    	background-image: url("images/overlay.png");
+	    	background-image: url("images/PFPBG.jpg");  /* Replace header.svg with your new image */
+	        /*linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);*/
+	    	background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+	    	/*background-size: 128px 128px, cover, auto; Keep overlay small, but cover new background */
+	    	background-repeat: repeat, no-repeat, no-repeat;
+	   	/*background-position: top left, center, center; Position correctly */
 	}
 
 	.homepage #header-wrapper {
