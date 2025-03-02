@@ -1776,8 +1776,8 @@ input, select, textarea {
 }
 #logo img {
     position: absolute;
-    left: -15px; /* Adjust as needed */
-    top: 45px; /* Adjust to move it up/down */
+    left: -50px; /* Adjust as needed */
+    top: -45px; /* Adjust to move it up/down */
 }
 
 
@@ -2128,6 +2128,15 @@ input, select, textarea {
 		}
 
 	#header-wrapper {
+		background: url(images/PFPBG.jpg') no-repeat center center;
+	    	/*background-size: cover;*/
+		background-size: 100% 620%;
+		background-size: 128px 128px, 100% 620%, auto;
+		background-repeat: repeat, no-repeat, no-repeat;
+	    	min-height: 100vh; /* Full screen height */
+	}
+
+	/*#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
@@ -2139,7 +2148,7 @@ input, select, textarea {
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
-	}
+	}*/
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
