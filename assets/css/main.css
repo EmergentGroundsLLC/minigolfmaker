@@ -2149,10 +2149,11 @@ input, select, textarea {
 	    	position: relative;
 	    	padding: 4em 0 2em 0;
 	    	min-height: 100vh; /* Ensure full screen height */
+		background-color: #9d395d;
 		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
-	    	width: 100%;  /* Adjust to full width of the container */
+	    	width: 115%;  /* Adjust to full width of the container */
 	    	height: auto; /* Maintain aspect ratio */
 	    	position: absolute;
 	    	top: 0;
