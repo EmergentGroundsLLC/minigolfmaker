@@ -2147,7 +2147,7 @@ input, select, textarea {
 	
 	#video {
 	    	width: 90%;
-		height: 80%
+		height: 70vh;
 	    	max-width: 1200px;
 		z-index: 2;
 	}
