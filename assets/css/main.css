@@ -2136,7 +2136,11 @@ input, select, textarea {
 		}
 
 	#video {
-	    	z-index: 2; /* Higher z-index for the video */
+	    	position: relative;
+	    	width: 100%; /* Makes the iframe responsive */
+	    	height: 675px; /* Fixed height for the video */
+	    	z-index: 2;
+	    	display: block; /* Ensures it behaves like a block element */
 	}
 
 	#header-wrapper {
