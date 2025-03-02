@@ -2336,17 +2336,19 @@ input, select, textarea {
 	#hero-wrapper {
 	    	width: 100%;
 	    	background-color: #9b385e; /* Same as header-wrapper */
-	    	padding: 4em 0;
+		z-index: 0; /* Lower z-index for the background image */
 	}
 	#hero {
 		position: relative;
 		color: #fff;
 		text-align: center;
+		z-index: 2; /* Lower z-index for the background image */
 	}
 
 		#hero h2 {
 			color: #fff;
 			font-size: 3em;
+			z-index: 2; /* Lower z-index for the background image */
 		}
 
 		#hero strong {
@@ -2355,6 +2357,7 @@ input, select, textarea {
 
 		#hero header > span {
 			color: #fff;
+			z-index: 2; /* Lower z-index for the background image */
 		}
 
 		#hero p {
@@ -2367,22 +2370,26 @@ input, select, textarea {
 			border-color: rgba(255, 255, 255, 0);
 			color: #f08c89;
 			font-size: 1.25em;
+			z-index: 2; /* Lower z-index for the background image */
 		}
 
 			#hero .button:hover {
 				border-color: rgba(255, 255, 255, 0.75);
 				background-color: rgba(255, 255, 255, 0.15);
 				color: #fff;
+				z-index: 2; /* Lower z-index for the background image */
 			}
 
 		#hero a {
 			color: #fff;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.5);
+			z-index: 2; /* Lower z-index for the background image */
 		}
 
 			#hero a:hover {
 				border-color: rgba(255, 255, 255, 0);
+				z-index: 2; /* Lower z-index for the background image */
 			}
 
 /* Promo */
