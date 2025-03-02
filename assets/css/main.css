@@ -1761,7 +1761,9 @@ input, select, textarea {
 		}
 
 /* logo */
-
+#logo img {
+    background: transparent;
+}
 #logo img {
     width: 200px; /* Adjust as needed */
     height: auto; /* Keeps the aspect ratio */
@@ -1783,7 +1785,7 @@ input, select, textarea {
 }
 #logo img {
     	position: relative;
-    	top: -70px; /* Adjust to move it up/down */
+    	top: -60px; /* Adjust to move it up/down */
 }
 
 
