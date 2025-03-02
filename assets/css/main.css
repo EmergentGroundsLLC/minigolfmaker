@@ -2333,26 +2333,20 @@ input, select, textarea {
 
 /* Hero */
 
+	#hero-wrapper {
+	    	width: 100%;
+	    	background-color: #9d395d; /* Same as header-wrapper */
+	    	padding: 4em 0;
+		z-index: -2; /* Lower z-index for the background image */
+	}
 	#hero {
 		position: relative;
 		color: #fff;
 		text-align: center;
-		z-index: 0;
-	}
-	#hero::before {
-	    content: "";
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
-	    background-color: #9d395d; /* Same as header-wrapper */
-	    z-index: -1;
 	}
 
 		#hero h2 {
 			color: #fff;
-    			background-color: #9d395d; /* Same as header-wrapper */
 			font-size: 3em;
 		}
 
