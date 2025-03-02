@@ -2138,15 +2138,11 @@ input, select, textarea {
 	#header-wrapper {
 	    	position: relative;
 	    	padding: 4em 0 2em 0;
-	    	/*background-image: url("images/overlay.png");*/
-	    	background-image: url("images/PFPBG.jpg");  /* Replace header.svg with your new image */
-	        /*linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);*/
-	    	/*background-color: #f08c89;*/
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-	    	/*background-size: 128px 128px, cover, auto; Keep overlay small, but cover new background */
-	    	background-repeat: repeat, no-repeat, no-repeat;
-	   	/*background-position: top left, center, center; Position correctly */
+	    	background-image: url("images/PFPBG.jpg"); /* Your image */
+	    	background-size: cover; /* Ensure the image covers the entire container */
+	    	background-repeat: no-repeat; /* Prevent tiling */
+	    	background-position: center center; /* Center the image */
+	    	min-height: 100vh; /* Full screen height */
 	}
 
 	.homepage #header-wrapper {
