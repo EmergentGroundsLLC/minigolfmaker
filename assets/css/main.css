@@ -2164,23 +2164,24 @@ input, select, textarea {
 	@media (max-width: 1020px) {
 	  #video {
 	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: calc(100vw * 0.32); /* Adjust height based on the viewport width */
+	    	height: calc(100vw * 0.29); /* Adjust height based on the viewport width */
 	  }
 	}
 	
-	/* For smaller screens (for example, mobile) */
+/*
 	@media (max-width: 768px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 0.35); /* Slightly smaller for smaller screens */
+	    	height: calc(100vw * 0.35); 
 	  }
 	}
+*/
 	
 	/* Even smaller screens */
 	@media (max-width: 480px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 0.5); /* Even smaller for very small screens */
+	    	height: calc(100vw * 0.8); /* Even smaller for very small screens */
 	  }
 	}
 
