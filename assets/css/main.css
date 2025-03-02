@@ -2138,10 +2138,15 @@ input, select, textarea {
 	#header-wrapper {
 	    	position: relative;
 	    	padding: 4em 0 2em 0;
-	    	background-image: url("images/PFPBGBig.jpg"); /* Your image */
-	    	background-size: cover; /* Stretch image to fit both width and height */
-	    	background-position: center center; /* Center the image */
-	    	min-height: 100vh; /* Ensure the container takes up the full screen height */
+	    	min-height: 100vh; /* Ensure full screen height */
+	}
+	.header-image {
+	    	width: 100%;  /* Adjust to full width of the container */
+	    	height: auto; /* Maintain aspect ratio */
+	    	object-fit: cover; /* Ensure it covers the container */
+	    	position: absolute;
+	    	top: 0;
+	    	left: 0;
 	}
 
 
