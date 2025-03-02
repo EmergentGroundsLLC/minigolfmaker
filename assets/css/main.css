@@ -2154,7 +2154,15 @@ input, select, textarea {
 		z-index: 0; /* Lower z-index for the background image */
     		display: flex;
     		flex-direction: column;
-    		justify-content: center; /* Keeps content centered */
+    		justify-content: flex-end; /* Keeps content centered */
+    		padding-bottom: 5em; /* Extends slightly further */
+	}
+	/* Extend the header-wrapper to include #hero */
+	#header-wrapper::after {
+	    content: "";
+	    display: block;
+	    height: 100px; /* Adjust this value to push the background further */
+	    background-color: #9d395d;
 	}
 	.header-image {
 	    	width: 100%;  /* Adjust to full width of the container */
