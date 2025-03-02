@@ -2142,10 +2142,11 @@ input, select, textarea {
 	    	align-items: center;
 	    	justify-content: flex-start;
 	    	margin-top: 50px; /* Adjust as needed */
+		z-index: 2;
 	}
 	
 	#video {
-	    	width: 65%;
+	    	width: 80%;
 	    	max-width: 1200px;
 	    	aspect-ratio: 16 / 9;
 		z-index: 2;
