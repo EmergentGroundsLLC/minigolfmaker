@@ -2151,6 +2151,20 @@ input, select, textarea {
 	    	max-width: 1200px;
 		z-index: 2;
 	}
+	
+	/* Default height for video when the width is 1021px or larger */
+	@media (min-width: 1021px) {
+	  video {
+	    height: 67vh; /* You can adjust this value to your needs */
+	  }
+	}
+	
+	/* As the window gets smaller, progressively reduce the height */
+	@media (max-width: 1020px) {
+	  video {
+	    height: calc(100vw * 0.67); /* This keeps the aspect ratio of 16:9 */
+	  }
+	}
 
 	#header-wrapper {
 	    	position: relative;
