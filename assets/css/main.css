@@ -1783,7 +1783,7 @@ input, select, textarea {
 #logo img {
     display: block; /* Ensure it behaves as an independent element */
     margin-left: -20px; /* Moves it right */
-    margin-top: -60px; /* Moves it down */
+    margin-top: -100px; /* Moves it down */
 }
 
 
@@ -2150,7 +2150,7 @@ input, select, textarea {
 	    position: relative;
 	    padding: 4em 0 2em 0;
 	    background-image: 
-	        url("images/overlay.png"), 
+	        /*url("images/overlay.png"), */
 	        url("images/PFPBG.jpg"),  /* Replace header.svg with your new image */
 	        linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 	    background-color: #f08c89;
