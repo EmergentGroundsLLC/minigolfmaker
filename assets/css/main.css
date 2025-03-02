@@ -2133,13 +2133,27 @@ input, select, textarea {
 	}
 
 	#header-wrapper {
-		background: url(images/PFPBG.jpg') no-repeat center center;
+		background: url("images/PFPBG.jpg") no-repeat center center;
 	    	background-size: cover;/*
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;*/
 	    	min-height: 100vh; /* Full screen height */
 	}
+
+	/*#header-wrapper {
+	    position: relative;
+	    padding: 4em 0 2em 0;
+	    background-image: 
+	        url("images/overlay.png"), 
+	        url("images/your-image.jpg"),  /* Replace header.svg with your new image */
+	        linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+	    background-color: #f08c89;
+	    background-size: 128px 128px, cover, auto; /* Keep overlay small, but cover new background */
+	    background-repeat: repeat, no-repeat, no-repeat;
+	    background-position: top left, center, center; /* Position correctly */
+	}*/
+
 
 	/*#header-wrapper {
 		position: relative;
