@@ -1763,7 +1763,7 @@ input, select, textarea {
 /* logo */
 
 #logo img {
-    width: 150px; /* Adjust as needed */
+    width: 210px; /* Adjust as needed */
     height: auto; /* Keeps the aspect ratio */
 }
 #logo img {
@@ -1776,8 +1776,8 @@ input, select, textarea {
 }
 #logo img {
     position: absolute;
-    left: 20px; /* Adjust as needed */
-    top: 10px; /* Adjust to move it up/down */
+    left: 0px; /* Adjust as needed */
+    top: 15px; /* Adjust to move it up/down */
 }
 
 
