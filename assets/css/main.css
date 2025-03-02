@@ -2146,7 +2146,7 @@ input, select, textarea {
 	}
 	
 	#video {
-	    	width: 80%;
+	    	width: 90%;
 	    	max-width: 1200px;
 	    	aspect-ratio: 16 / 8;
 		z-index: 2;
