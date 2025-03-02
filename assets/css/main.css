@@ -2139,6 +2139,8 @@ input, select, textarea {
 	    	position: relative;
 	    	width: 100%; /* Makes the iframe responsive */
 	    	height: 675px; /* Fixed height for the video */
+    		margin-left: 0px; /* Moves it right */
+    		margin-top: -250px; /* Moves it down */
 	    	z-index: 2;
 	    	display: block; /* Ensures it behaves like a block element */
 	}
@@ -2150,7 +2152,7 @@ input, select, textarea {
 		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
-	    	width: 250%;  /* Adjust to full width of the container */
+	    	width: 100%;  /* Adjust to full width of the container */
 	    	height: auto; /* Maintain aspect ratio */
 	    	position: absolute;
 	    	top: 0;
