@@ -2147,8 +2147,9 @@ input, select, textarea {
 	
 	#video {
 	    	width: 90%;
+		height: 80%
 	    	max-width: 1200px;
-	    	aspect-ratio: 16 / 6;
+	    	aspect-ratio: 16 / 9;
 		z-index: 2;
 	}
 
@@ -2160,7 +2161,7 @@ input, select, textarea {
 		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
-	    	width: 107%;  /* Adjust to full width of the container */
+	    	width: 108%;  /* Adjust to full width of the container */
 	    	height: auto; /* Maintain aspect ratio */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
