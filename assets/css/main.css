@@ -2141,14 +2141,14 @@ input, select, textarea {
 	    	flex-direction: column;
 	    	align-items: center;
 	    	justify-content: flex-start;
-	    	margin-top: -500px; /* Adjust as needed */
+	    	margin-top: -780px; /* Adjust as needed */
 		z-index: 2;
 	}
 	
 	#video {
 	    	width: 90%;
 	    	max-width: 1200px;
-	    	aspect-ratio: 16 / 8;
+	    	aspect-ratio: 16 / 6;
 		z-index: 2;
 	}
 
