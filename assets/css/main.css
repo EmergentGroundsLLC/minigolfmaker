@@ -2140,7 +2140,6 @@ input, select, textarea {
 	    	padding: 4em 0 2em 0;
 	    	background-image: url("images/PFPBGBig.jpg"); /* Your image */
 	    	background-size: cover; /* Stretch image to fit both width and height */
-	    	background-repeat: no-repeat; /* Prevent tiling */
 	    	background-position: center center; /* Center the image */
 	    	min-height: 100vh; /* Ensure the container takes up the full screen height */
 	}
