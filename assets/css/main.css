@@ -2139,7 +2139,7 @@ input, select, textarea {
 	    	position: relative;
 	    	padding: 4em 0 2em 0;
 	    	background-image: url("images/PFPBG.jpg"); /* Your image */
-	    	background-size: 2880px 1620px;; /* Stretch image to fit both width and height */
+	    	background-size: 2880px 1620px; /* Stretch image to fit both width and height */
 	    	background-repeat: no-repeat; /* Prevent tiling */
 	    	background-position: center center; /* Center the image */
 	    	min-height: 100vh; /* Ensure the container takes up the full screen height */
