@@ -2165,8 +2165,8 @@ input, select, textarea {
 	    background-color: #9d395d;
 	}
 	.header-image {
-	    	width: 100%;  /* Adjust to full width of the container */
-	    	height: 100%; /* Maintain aspect ratio */
+		height: 100%; /* Maintain aspect ratio */
+	    	width: auto;  /* Adjust to full width of the container */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
 	    	top: 0;
