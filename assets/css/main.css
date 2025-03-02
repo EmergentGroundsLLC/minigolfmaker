@@ -2137,7 +2137,7 @@ input, select, textarea {
 		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
-	    	width: 100%;  /* Adjust to full width of the container */
+	    	width: 108%;  /* Adjust to full width of the container */
 	    	height: auto; /* Maintain aspect ratio */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
@@ -2175,7 +2175,7 @@ input, select, textarea {
 
 	#logo {
 		position: absolute;
-		z-index: 1;
+		z-index: 4;
 		top: 0;
 		left: 50%;
 		width: 15em;
