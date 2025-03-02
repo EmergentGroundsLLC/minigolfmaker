@@ -1761,18 +1761,18 @@ input, select, textarea {
 		}
 
 /* logo */
-#logo img {
+/*#logo img {
     background: transparent;
 }
 #logo img {
     width: 200px; /* Adjust as needed */
     height: auto; /* Keeps the aspect ratio */
-}
+}*/
 /*#logo img {
     display: block;
     margin: 0 auto;
 }
-#logo img {
+/*#logo img {
     	position: relative;
 	left: -50px; /* Adjust as needed */
     	top: -20px; /* Move up by 20px */
@@ -1785,8 +1785,8 @@ input, select, textarea {
 }
 #logo img {
     	position: relative;
-    	top: -60px; /* Adjust to move it up/down */
-}
+    	top: -61px; /* Adjust to move it up/down */
+}*/
 
 
 /* Image */
