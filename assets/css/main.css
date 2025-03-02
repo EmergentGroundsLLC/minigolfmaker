@@ -2335,15 +2335,15 @@ input, select, textarea {
 
 	#hero {
 		position: relative;
-		color: #9d395d;
-	    	min-height: 100vh; /* Ensure full screen height */
+		color: #fff;
+    		background-color: #9d395d; /* Same as header-wrapper */
 		text-align: center;
 		z-index: 1;
 	}
 
 		#hero h2 {
-			color: #9d395d;
-	    		min-height: 100vh; /* Ensure full screen height */
+			color: #fff;
+    			background-color: #9d395d; /* Same as header-wrapper */
 			font-size: 3em;
 		}
 
