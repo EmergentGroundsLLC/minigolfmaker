@@ -1771,13 +1771,14 @@ input, select, textarea {
     margin: 0 auto;
 }
 #logo img {
-    position: relative;
-    top: -20px; /* Move up by 20px */
+    	position: relative;
+	left: -50px; /* Adjust as needed */
+    	top: -20px; /* Move up by 20px */
 }
 #logo img {
-    position: absolute;
-    left: -50px; /* Adjust as needed */
-    top: -45px; /* Adjust to move it up/down */
+    	position: absolute;
+    	left: -50px; /* Adjust as needed */
+    	top: -60px; /* Adjust to move it up/down */
 }
 
 
