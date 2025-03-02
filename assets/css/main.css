@@ -2149,7 +2149,7 @@ input, select, textarea {
 	    background-color: red !important;
 	}*/
 
-	#header-wrapper {
+	/*#header-wrapper {
 	    	position: relative;
 	    	padding: 4em 0 2em 0;
 	    	background-image: url("images/overlay.png");
@@ -2161,9 +2161,9 @@ input, select, textarea {
 	    	/*background-size: 128px 128px, cover, auto; Keep overlay small, but cover new background */
 	    	background-repeat: repeat, no-repeat, no-repeat;
 	   	/*background-position: top left, center, center; Position correctly */
-	}
+	}*/
 
-	/*#header-wrapper {
+	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
@@ -2175,7 +2175,7 @@ input, select, textarea {
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
-	}*/
+	}
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
