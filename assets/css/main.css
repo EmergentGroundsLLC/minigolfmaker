@@ -2152,12 +2152,11 @@ input, select, textarea {
 	  	z-index: 2;
 	}
 
-	/* Default height for video when the width is 1021px or larger */
-	@media (min-width: 1021px) {
-	  #video {
-	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: 71vh !important; /* Use 67% of the viewport height */
-	  }
+	@media (min-width: 1281px) {
+	    #video {
+	        width: 90%;
+	        height: 74vh !important;
+	    }
 	}
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
@@ -2167,27 +2166,18 @@ input, select, textarea {
 	  }
 	}
 	
-	/* As the window gets smaller, progressively reduce the height */
-	@media (max-width: 1020px) {
-	  #video {
-	    	width: 100%; /* Keeps width at 90% of the container */
-	    	height: 23vw !important; /* Adjust height based on the viewport width */
-	  }
+	@media (max-width: 1280px) {
+	    #video {
+	        width: 89%;
+	        height: 44.6vw !important;
+	    }
 	}
-	
-	@media (max-width: 768px) {
-	  #video {
-	    	width: 100%;
-	    	height: 24vw !important; 
-	  }
-	}
-	
-	/* Even smaller screens */
-	@media (max-width: 480px) {
-	  #video {
-	    	width: 50%;
-	    	height: 600vw !important; /* Even smaller for very small screens */
-	  }
+
+	@media (max-width: 1080px) {
+	    #video {
+		width: 79%;
+        	height: 44.6vw !important;
+	    }
 	}
 
 	#header-wrapper {
