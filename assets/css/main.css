@@ -1763,14 +1763,13 @@ input, select, textarea {
 /* logo */
 #logo img {
     	position: relative;
-    	background: transparent;
     	width: 200px; /* Adjust as needed */
     	height: auto; /* Keeps the aspect ratio */
     	display: block; /* Ensure it behaves as an independent element */
     	margin-left: -20px; /* Moves it right */
    	margin-top: -100px; /* Moves it down */
     	top: -61px; /* Adjust to move it up/down */
-	z-index: 3;
+	z-index: 4;
 }
 
 
