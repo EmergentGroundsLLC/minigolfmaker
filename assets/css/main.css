@@ -2170,14 +2170,14 @@ input, select, textarea {
 	/* As the window gets smaller, progressively reduce the height */
 	@media (max-width: 1020px) {
 	  #video {
-	    	width: 90%; /* Keeps width at 90% of the container */
+	    	width: 100%; /* Keeps width at 90% of the container */
 	    	height: calc(100vw * 0.23) !important; /* Adjust height based on the viewport width */
 	  }
 	}
 	
 	@media (max-width: 768px) {
 	  #video {
-	    	width: 90%;
+	    	width: 100%;
 	    	height: calc(100vw * 0.24) !important; 
 	  }
 	}
@@ -2185,7 +2185,7 @@ input, select, textarea {
 	/* Even smaller screens */
 	@media (max-width: 480px) {
 	  #video {
-	    	width: 90%;
+	    	width: 50%;
 	    	height: calc(100vw * 6) !important; /* Even smaller for very small screens */
 	  }
 	}
