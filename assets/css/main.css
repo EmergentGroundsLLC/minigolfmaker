@@ -2155,7 +2155,7 @@ input, select, textarea {
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
 	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: 67vh; /* Use 67% of the viewport height */
+	    	height: 67vh !important; /* Use 67% of the viewport height */
 	  }
 	}
 	
@@ -2163,7 +2163,7 @@ input, select, textarea {
 	@media (min-width: 1021px) {
 	  #video {
 	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: 71vh; /* Use 67% of the viewport height */
+	    	height: 71vh !important; /* Use 67% of the viewport height */
 	  }
 	}
 	
@@ -2171,14 +2171,14 @@ input, select, textarea {
 	@media (max-width: 1020px) {
 	  #video {
 	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: calc(100vw * 0.23); /* Adjust height based on the viewport width */
+	    	height: calc(100vw * 0.23) !important; /* Adjust height based on the viewport width */
 	  }
 	}
 	
 	@media (max-width: 768px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 0.24); 
+	    	height: calc(100vw * 0.24) !important; 
 	  }
 	}
 	
@@ -2186,7 +2186,7 @@ input, select, textarea {
 	@media (max-width: 480px) {
 	  #video {
 	    	width: 90%;
-	    	height: calc(100vw * 6); /* Even smaller for very small screens */
+	    	height: calc(100vw * 6) !important; /* Even smaller for very small screens */
 	  }
 	}
 
