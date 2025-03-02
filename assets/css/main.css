@@ -1760,35 +1760,6 @@ input, select, textarea {
 
 		}
 
-/* logo */
-/*#logo img {
-    background: transparent;
-}
-#logo img {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Keeps the aspect ratio */
-}*/
-/*#logo img {
-    display: block;
-    margin: 0 auto;
-}
-/*#logo img {
-    	position: relative;
-	left: -50px; /* Adjust as needed */
-    	top: -20px; /* Move up by 20px */
-}
-*/
-#logo img {
-    display: block; /* Ensure it behaves as an independent element */
-    margin-left: -20px; /* Moves it right */
-    margin-top: -100px; /* Moves it down */
-}
-#logo img {
-    	position: relative;
-    	top: -61px; /* Adjust to move it up/down */
-}*/
-
-
 /* Image */
 
 	.image {
@@ -2134,33 +2105,6 @@ input, select, textarea {
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
 			background: #f6f8fb url("images/image-wrapper.svg");
 		}
-
-	/*#header-wrapper {
-		background: url("images/PFPBG.jpg") no-repeat center center;
-	    	background-size: cover;/*
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;*/
-	    	min-height: 100vh; /* Full screen height */
-	}*/
-
-	/*#header-wrapper {
-	    background-color: red !important;
-	}*/
-
-	/*#header-wrapper {
-	    position: relative;
-	    padding: 4em 0 2em 0;
-	    background-image: 
-	        /*url("images/overlay.png"), */
-	        url("images/PFPBG.jpg"),  /* Replace header.svg with your new image */
-	        linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-	    background-color: #f08c89;
-	    background-size: 128px 128px, cover, auto; /* Keep overlay small, but cover new background */
-	    background-repeat: repeat, no-repeat, no-repeat;
-	    background-position: top left, center, center; /* Position correctly */
-	}*/
-
 
 	#header-wrapper {
 		position: relative;
