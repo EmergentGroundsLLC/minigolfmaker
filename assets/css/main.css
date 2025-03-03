@@ -2143,8 +2143,8 @@ input, select, textarea {
 	    	align-items: center;
 	    	justify-content: flex-start;
 	    	padding-top: 50px; /* Prevents overlap by pushing video down */
-	    	padding-bottom: 50px; /* Ensures spacing below video */
-	    	margin-top: -780px !important;
+	    	padding-bottom: 780px; /* Ensures spacing below video */
+	    	/*margin-top: -780px !important;*/
 		z-index: 2;
 	}
 	
