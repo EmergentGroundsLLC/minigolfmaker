@@ -2154,29 +2154,29 @@ input, select, textarea {
 
 	@media (min-width: 1281px) {
 	    #video {
-	        width: 87.2%;
-	        height: 74vh !important;
+	        width: 90%;
+	        height: 67vh !important;
 	    }
 	}
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
-	    	width: 87.2%; /* Keeps width at 90% of the container */
-	    	height: 74vh !important; /* Use 67% of the viewport height */
+	    	width: 90%; /* Keeps width at 90% of the container */
+	    	height: 67vh !important; /* Use 67% of the viewport height */
 	  }
 	}
 	
 	@media (max-width: 1280px) {
 	    #video {
 	        width: 89%;
-	        height: 482px !important;
+	        height: 480px !important;
 	    }
 	}
 
 	@media (max-width: 1080px) {
 	    #video {
 		width: 79%;
-        	height: 44.4vw !important;
+        	height: 44vw !important;
 	    }
 	}
 
@@ -2822,7 +2822,7 @@ input, select, textarea {
 
 		/* Header */
 
-			#logo {
+			/*#logo {
 				position: relative;
 			}
 
@@ -2831,7 +2831,7 @@ input, select, textarea {
 					border-radius: 0.35em;
 					height: 3em;
 					line-height: 3em;
-				}
+				}*/
 
 		/* Nav */
 
