@@ -1762,17 +1762,16 @@ input, select, textarea {
 
 /* logo */
 #logo img {
-    background: transparent;
+    	background: transparent;
+    	width: 200px; /* Adjust as needed */
+    	height: auto; /* Keeps the aspect ratio */
 }
 #logo img {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Keeps the aspect ratio */
-}
-#logo img {
-    	display: block; /* Ensure it behaves as an independent element */
-	position: relative;
-	top: -20vh; /* Adjust to move it up/down */
-	z-index: 4;
+    	display: block;
+    	position: relative;
+    	top: -6.1vh;
+    	left: 3.8vh;
+    	z-index: 4;
 }
 
 
