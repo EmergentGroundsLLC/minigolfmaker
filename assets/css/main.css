@@ -2903,11 +2903,11 @@ input, select, textarea {
 				transition: transform 0.5s ease;*/
 				background: red !important;
 			    	position: fixed !important;
-			    	left: -45px !important;
+			    	left: -80px !important;
 				top: 0px !important;
 			    	width: 100% !important;
 			    	height: 44px !important;
-			    	z-index: 10001;
+			    	z-index: 10003;
 			}
 
 			/*#navButton {
