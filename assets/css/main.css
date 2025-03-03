@@ -2377,7 +2377,7 @@ input, select, textarea {
 	}
 	#hero {
 		position: relative;
-		top: 6%;
+		top: -6%;
 		color: #fff;
 		text-align: center;
 		z-index: 2; /* Lower z-index for the background image */
