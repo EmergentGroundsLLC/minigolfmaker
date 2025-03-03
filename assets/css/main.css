@@ -2154,7 +2154,7 @@ input, select, textarea {
 
 	@media (min-width: 1281px) {
 	    #video {
-	        width: 86.9%;
+	        width: 89%;
 	        height: 67vh !important;
 	    }
 	}
@@ -2900,7 +2900,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;*/
 			    	position: fixed !important;
-			    	left: -200px !important;
+			    	left: -80px !important;
 			    	width: 100% !important;
 			    	height: 44px !important;
 			    	z-index: 10001;
