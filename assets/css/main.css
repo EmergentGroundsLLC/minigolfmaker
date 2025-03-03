@@ -2154,14 +2154,14 @@ input, select, textarea {
 
 	@media (min-width: 1281px) {
 	    #video {
-	        width: 89%;
+	        width: 86.9%;
 	        height: 67vh !important;
 	    }
 	}
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
-	    	width: 81.8%; /* Keeps width at 90% of the container */
+	    	width: 83%; /* Keeps width at 90% of the container */
 	    	height: 67vh !important; /* Use 67% of the viewport height */
 	  }
 	}
@@ -2900,7 +2900,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;*/
 			    	position: fixed !important;
-			    	left: -80px !important;
+			    	left: -45px !important;
 			    	width: 100% !important;
 			    	height: 44px !important;
 			    	z-index: 10001;
