@@ -2154,14 +2154,14 @@ input, select, textarea {
 
 	@media (min-width: 1281px) {
 	    #video {
-	        width: 86.9%;
+	        width: 86%;
 	        height: 67vh !important;
 	    }
 	}
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
-	    	width: 83%; /* Keeps width at 90% of the container */
+	    	width: 85.2%; /* Keeps width at 90% of the container */
 	    	height: 67vh !important; /* Use 67% of the viewport height */
 	  }
 	}
@@ -2899,8 +2899,10 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;*/
+				background: red !important;
 			    	position: fixed !important;
 			    	left: -45px !important;
+				top: 0px !important;
 			    	width: 100% !important;
 			    	height: 44px !important;
 			    	z-index: 10001;
