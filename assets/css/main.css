@@ -2383,14 +2383,14 @@ input, select, textarea {
 		top: -10%;
 	}
 	#hero {
-		position: absolute;
 		color: #fff;
 		text-align: center;
 		z-index: 2; /* Lower z-index for the background image */
 	}
 
 		#hero h2 {
-			position: absolute;
+			position: relative;
+			top: -32vh;	
 			color: #fff;
 			font-size: 3em;
 			z-index: 2; /* Lower z-index for the background image */
@@ -2406,12 +2406,16 @@ input, select, textarea {
 		}
 
 		#hero p {
-			font-size: 1.5em;
-			line-height: 1.5em;
+		    position: relative;
+		    top: -32vh;
+		    font-size: 1.5em;
+		    line-height: 1.5em;
+		    z-index: 2;
 		}
 
 		#hero .button {
-			position: absolute;
+			position: relative;
+		   	top: -32vh;			
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
 			color: #f08c89;
@@ -2427,7 +2431,8 @@ input, select, textarea {
 			}
 
 		#hero a {
-			position: absolute;
+			position: relative;
+		    	top: -32vh;
 			color: #fff;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.5);
