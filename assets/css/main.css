@@ -2143,8 +2143,6 @@ input, select, textarea {
 	    	align-items: center;
 	    	justify-content: flex-start;
 	    	padding-top: 13vh; /* Prevents overlap by pushing video down */
-	    	/*padding-bottom: 80vh; Ensures spacing below video */
-	    	/*margin-top: -780px !important;*/
 		z-index: 2;
 	}
 	
@@ -2379,6 +2377,7 @@ input, select, textarea {
 	}
 	#hero {
 		position: relative;
+		top: 6%;
 		color: #fff;
 		text-align: center;
 		z-index: 2; /* Lower z-index for the background image */
