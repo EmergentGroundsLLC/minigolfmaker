@@ -2159,7 +2159,7 @@ input, select, textarea {
 	    }
 	}
 
-	@media (min-width: 1890px) and (min-height: 870px) {
+	@media (min-width: 1900px) and (min-height: 870px) {
 	    #video {
 	        width: 90% !important;
 	        height: 67vh !important;
