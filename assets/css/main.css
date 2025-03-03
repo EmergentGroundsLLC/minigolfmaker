@@ -2161,7 +2161,7 @@ input, select, textarea {
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
-	    	width: 90%; /* Keeps width at 90% of the container */
+	    	width: 81.8%; /* Keeps width at 90% of the container */
 	    	height: 67vh !important; /* Use 67% of the viewport height */
 	  }
 	}
@@ -2891,12 +2891,18 @@ input, select, textarea {
 		
 			#navButton {
 				display: block;
+				/*-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;*/
 			    	position: fixed !important;
-			    	top: 50px !important;
-			    	left: 10px !important;
+			    	left: -200px !important;
 			    	width: 100% !important;
 			    	height: 44px !important;
-			    	background: red !important; /* Just to make sure we see it */
 			    	z-index: 10001;
 			}
 
