@@ -2154,15 +2154,15 @@ input, select, textarea {
 
 	@media (min-width: 1281px) {
 	    #video {
-	        width: 90%;
+	        width: 87.2%;
 	        height: 74vh !important;
 	    }
 	}
 
 	@media (min-width: 1919px) and (min-height: 1079px) {
 	  #video {
-	    	width: 90%; /* Keeps width at 90% of the container */
-	    	height: 67vh !important; /* Use 67% of the viewport height */
+	    	width: 87.2%; /* Keeps width at 90% of the container */
+	    	height: 74vh !important; /* Use 67% of the viewport height */
 	  }
 	}
 	
