@@ -1768,22 +1768,10 @@ input, select, textarea {
     width: 200px; /* Adjust as needed */
     height: auto; /* Keeps the aspect ratio */
 }
-/*#logo img {
-    display: block;
-    margin: 0 auto;
-}
-/*#logo img {
-    	position: relative;
-	left: -50px; /* Adjust as needed */
-    	top: -20px; /* Move up by 20px */
-}
-
 #logo img {
     	display: block; /* Ensure it behaves as an independent element */
-    	margin-left: -20px; /* Moves it right */
-    	margin-top: -100px; /* Moves it down */
 	position: relative;
-	top: -61px; /* Adjust to move it up/down */
+	top: -20vh; /* Adjust to move it up/down */
 	z-index: 4;
 }
 
