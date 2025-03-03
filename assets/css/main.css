@@ -2199,6 +2199,11 @@ input, select, textarea {
 	    	left: 0;
 		z-index: 1; /* Lower z-index for the background image */
 	}
+	@media (max-width: 736) {
+		.header-image {
+		    	top: -34% !important;
+		}
+	}
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
@@ -2374,16 +2379,18 @@ input, select, textarea {
 	    	width: 100%;
 	    	background-color: #9b385e; /* Same as header-wrapper */
 		z-index: 0; /* Lower z-index for the background image */
+		position: relative;
+		top: -10%;
 	}
 	#hero {
-		position: relative;
-		top: -6%;
+		position: absolute;
 		color: #fff;
 		text-align: center;
 		z-index: 2; /* Lower z-index for the background image */
 	}
 
 		#hero h2 {
+			position: absolute;
 			color: #fff;
 			font-size: 3em;
 			z-index: 2; /* Lower z-index for the background image */
@@ -2404,6 +2411,7 @@ input, select, textarea {
 		}
 
 		#hero .button {
+			position: absolute;
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
 			color: #f08c89;
@@ -2419,6 +2427,7 @@ input, select, textarea {
 			}
 
 		#hero a {
+			position: absolute;
 			color: #fff;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.5);
