@@ -2120,7 +2120,6 @@ input, select, textarea {
 
 		.image-wrapper .image {
 			position: relative;
-			margin-top: -13hv
 			z-index: 2;
 		}
 
@@ -2131,7 +2130,7 @@ input, select, textarea {
 			height: 100%;
 			position: absolute;
 			left: -1000%;
-			margin-top: -13hv
+			top: 0;
 			z-index: 1;
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
 			background: #f6f8fb url("images/image-wrapper.svg");
@@ -2198,7 +2197,7 @@ input, select, textarea {
 	    	height: auto; /* Maintain aspect ratio */
     		object-fit: cover; /* Stretches the image to always fill the screen */
 	    	position: absolute;
-	    	top: 0;
+	    	top: -13%;
 	    	left: 0;
 		z-index: 1; /* Lower z-index for the background image */
 	}
