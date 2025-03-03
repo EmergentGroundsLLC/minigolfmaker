@@ -2377,15 +2377,14 @@ input, select, textarea {
 
 	#hero-wrapper {
 	    	width: 100%;
-	    	background-color: #9b385e; /* Same as header-wrapper */
-		z-index: 0; /* Lower z-index for the background image */
-		position: relative;
-		top: -10%;
+	    	background-color: #9b385e;
+    		height: 26vh;
 	}
 	#hero {
-		color: #fff;
-		text-align: center;
-		z-index: 2; /* Lower z-index for the background image */
+	    	color: #fff;
+	    	position: relative;
+	    	text-align: center;
+	    	z-index: 2;
 	}
 
 		#hero h2 {
