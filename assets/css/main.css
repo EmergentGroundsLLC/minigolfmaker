@@ -2176,7 +2176,7 @@ input, select, textarea {
 	@media (max-width: 1080px) {
 	    #video {
 		width: 79%;
-        	height: 44vw !important;
+        	height: 43.4vw !important;
 	    }
 	}
 
@@ -2888,8 +2888,19 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 			}
-
+		
 			#navButton {
+				display: block;
+			    	position: fixed !important;
+			    	top: 50px !important;
+			    	left: 10px !important;
+			    	width: 100% !important;
+			    	height: 44px !important;
+			    	background: red !important; /* Just to make sure we see it */
+			    	z-index: 10001;
+			}
+
+			/*#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2905,7 +2916,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-			}
+			}*/
 
 				#navButton .toggle {
 					text-decoration: none;
