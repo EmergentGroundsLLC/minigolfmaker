@@ -1764,14 +1764,14 @@ input, select, textarea {
 #logo img {
     	background: transparent;
     	width: 200px; /* Adjust as needed */
-    	height: auto; /* Keeps the aspect ratio */
+    	/*height: auto; /* Keeps the aspect ratio */
 }
 #logo img {
-    	display: block;
-    	position: relative;
-	top: -6.7vh;
-    	left: 3.8vh;
-    	z-index: 4;
+	display: block;
+	position: relative;
+	top: -62px;
+	left: 43px;
+	z-index: 4;
 }
 
 
@@ -2123,11 +2123,11 @@ input, select, textarea {
 
 	#video-container {
 		position: relative;
-	    	display: flex;
-	    	flex-direction: column;
-	    	align-items: center;
-	    	justify-content: flex-start;
-	    	padding-top: 13vh; /* Prevents overlap by pushing video down */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		padding-top: 13vh; /* Prevents overlap by pushing video down */
 		z-index: 2;
 	}
 	
@@ -2169,11 +2169,7 @@ input, select, textarea {
 	}
 
 	#header-wrapper {
-	    	position: relative;
-	    	padding: 4em 0 2em 0;
-	    	min-height: 100vh; /* Ensure full screen height */
 		background-color: #9b385e;
-		z-index: 1; /* Lower z-index for the background image */
 	}
 	.header-image {
 	    	width: 109%;  /* Adjust to full width of the container */
@@ -2361,20 +2357,34 @@ input, select, textarea {
 /* Hero */
 
 	#hero-wrapper {
-	    	width: 100%;
-	    	background-color: #9b385e;
-    		height: 26vh;
+		width: 100%;
+		background-color: #9b385e;
 	}
 	#hero {
-	    	color: #fff;
-	    	position: relative;
-	    	text-align: center;
-	    	z-index: 2;
+		color: #fff;
+		position: relative;
+		text-align: center;
+		z-index: 2;
+	}
+
+	@media (max-width: 736) {
+		#hero {
+			top: -500px;
+		}
+	}
+	@media (max-width: 390) {
+		#hero {
+			top: -660px;
+		}
+	}
+	@media (max-width: 375) {
+		#hero {
+			top: -500px;
+		}
 	}
 
 		#hero h2 {
 			position: relative;
-			top: -32vh;	
 			color: #fff;
 			font-size: 3em;
 			z-index: 2; /* Lower z-index for the background image */
@@ -2391,15 +2401,13 @@ input, select, textarea {
 
 		#hero p {
 		    position: relative;
-		    top: -32vh;
 		    font-size: 1.5em;
 		    line-height: 1.5em;
 		    z-index: 2;
 		}
 
 		#hero .button {
-			position: relative;
-		   	top: -32vh;			
+			position: relative;		
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
 			color: #f08c89;
@@ -2416,7 +2424,6 @@ input, select, textarea {
 
 		#hero a {
 			position: relative;
-		    	top: -32vh;
 			color: #fff;
 			border-color: #fff;
 			border-color: rgba(255, 255, 255, 0.5);
@@ -2610,7 +2617,7 @@ input, select, textarea {
 		/* Hero */
 
 			#hero {
-				padding: 3.5em 4em 0 4em;
+				padding: 0em 4.1em 0 4.1em;
 			}
 
 				#hero h2 {
@@ -2764,6 +2771,12 @@ input, select, textarea {
 		display: none;
 	}
 
+	@media screen and (max-width: 666px) {
+		.homepage #header-wrapper {
+			padding: 8em 20px 3em 20px;
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
@@ -2808,10 +2821,6 @@ input, select, textarea {
 			#header-wrapper {
 				padding: 3em 20px 20px 20px;
 				text-align: center;
-			}
-
-			.homepage #header-wrapper {
-				padding: 3em 20px 3em 20px;
 			}
 
 			#promo-wrapper {
@@ -2863,25 +2872,22 @@ input, select, textarea {
 
 		/* Hero */
 
-			#hero {
-				padding: 2.5em 2em 0 2em;
+			#hero header {
+				margin: 0 0 1.25em 0;
 			}
 
-				#hero header {
-					margin: 0 0 1.25em 0;
+				#hero header h2 {
+					font-size: 1.5em;
 				}
 
-					#hero header h2 {
-						font-size: 1.5em;
-					}
-
-				#hero p {
-					font-size: 1em;
-				}
+			#hero p {
+				font-size: 1em;
+			}
 
 		/* Nav */
 
 			#page-wrapper {
+				overflow: hidden; /* Prevents horizontal scrolling */
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3155,18 +3161,20 @@ input, select, textarea {
 
 		/* Header */
 
-			#logo {
+			/*#logo {
 				position: relative;
 				left: 0;
 				top: 0;
 				margin: 0;
 				width: 100%;
-			}
+			}*/
 
-		/* Hero */
-
-			#hero {
-				padding: 2.5em 0 0 0;
+			#logo img {
+				position: relative;
+				left: 26px;
+				top: -55px;
+				margin:0;
+				width: 76%;
 			}
 
 		/* Promo */
