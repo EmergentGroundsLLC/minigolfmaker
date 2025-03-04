@@ -1769,7 +1769,7 @@ input, select, textarea {
 #logo img {
     	display: block;
     	position: relative;
-    	top: -6.1vh;
+	top: -6.7vh;
     	left: 3.8vh;
     	z-index: 4;
 }
