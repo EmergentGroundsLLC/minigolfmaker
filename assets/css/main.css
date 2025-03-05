@@ -199,8 +199,12 @@ input, select, textarea {
 		margin-bottom: 1.5em;
 	}
 
-	br.clear {
-		clear: both;
+	@media screen and (max-width: 736px){
+		#Roadmap p, #Privacy-Policy p, #Terms-of-Service p {
+			font-size: 1.1em;
+			width: 80vw;
+			line-height: 1.25em;
+		}
 	}
 
 	.features {
@@ -1025,6 +1029,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 376px) {
+			.row > .col-12-narrower {
+				width: 100%;
+				position: relative;
+			}
+
+			#Roadmap, #Privacy-Policy, #Terms-of-Service {
+				left: -43.5vw !important;
+			}
+		}
+
+
 		@media screen and (max-width: 820px) {
 
 			.row {
@@ -1159,6 +1175,13 @@ input, select, textarea {
 				}
 
 				.row > .col-12-narrower {
+					width: 100%;
+					position: relative;
+					left: -54vw;
+				}
+
+				#footer .row > .col-12-narrower {
+					left: 0vw;
 					width: 100%;
 				}
 
@@ -2096,7 +2119,9 @@ input, select, textarea {
 		position: relative;
 		background: #fff;
 		overflow-x: hidden;
-	    	padding: 30vh !important;
+		padding: 30vh !important;
+		z-index: -1;
+		top: -185px;
 	}
 
 	.image-wrapper {
@@ -2105,7 +2130,17 @@ input, select, textarea {
 
 		.image-wrapper .image {
 			position: relative;
+			width: 250px;
+			width: 375px;
 			z-index: 2;
+		}
+
+		@media screen and (max-width: 450px){
+			.image-wrapper .image {
+				position: relative;
+				width: 250px;
+				z-index: 2;
+			}
 		}
 
 		.image-wrapper.first:before {
@@ -2168,17 +2203,24 @@ input, select, textarea {
 	    }
 	}
 
+	html, body {
+		min-height: 100vh; /* Set to viewport height */
+		overflow-x: hidden; /* Prevent horizontal scrolling */
+	}
+
 	#header-wrapper {
 		background-color: #9b385e;
+		overflow-x: hidden;
 	}
 	.header-image {
-	    	width: 109%;  /* Adjust to full width of the container */
-	    	height: auto; /* Maintain aspect ratio */
-    		object-fit: cover; /* Stretches the image to always fill the screen */
-	    	position: absolute;
-	    	top: -13%;
-	    	left: 0;
+		width: 109%;  /* Adjust to full width of the container */
+		height: auto; /* Maintain aspect ratio */
+		object-fit: cover; /* Stretches the image to always fill the screen */
+		position: absolute;
+		top: -13%;
+		left: 0;
 		z-index: 1; /* Lower z-index for the background image */
+		overflow-x: hidden;
 	}
 	@media (max-width: 736) {
 		.header-image {
@@ -2199,6 +2241,7 @@ input, select, textarea {
 		color: #fff;
 		text-align: center;
 		padding: 6em 0 6em 0;
+		top: -350px;
 	}
 
 	#footer-wrapper {
@@ -2208,6 +2251,7 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
+		top: -350px;
 	}
 
 /* Header */
@@ -2650,6 +2694,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 0 1em 0;
 					font-size: 1.5em;
+					width: 100%;
 				}
 
 		/* Copyright */
@@ -2798,7 +2843,12 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
+				/* font-size: 1.5em; */
+				width: 100vw;
+				line-height: 1.25em;
+			}
+			#footer h2 {
+				/* font-size: 1.5em; */
 				line-height: 1.25em;
 			}
 
@@ -2884,7 +2934,8 @@ input, select, textarea {
 			}
 
 				#hero header h2 {
-					font-size: 1.5em;
+					font-size: 2.1em;
+					left: -17vw;
 				}
 
 			#hero p {
@@ -2907,21 +2958,21 @@ input, select, textarea {
 			}
 		
 			#navButton {
-				display: block;
-				/*-moz-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;*/
-			    	position: fixed !important;
-			    	left: -170px !important;
+				transition: transform 0.5s ease;
+				display: block;
+				position: fixed !important;
+				left: -34px !important;
 				top: 0px !important;
-			    	width: 100% !important;
-			    	height: 44px !important;
-			    	z-index: 10003;
+				width: 30% !important;
+				height: 44px !important;
+				z-index: 10003;
 			}
 
 			/*#navButton {
@@ -3109,8 +3160,15 @@ input, select, textarea {
 				margin-bottom: 2em;
 			}
 
+			#footer header.major {
+				text-align: left;
+				position: relative;
+				left: 0vw;
+			}
 			header.major {
 				text-align: left;
+				position: relative;
+				left: -44vw;
 			}
 
 		/* Image */
@@ -3142,6 +3200,7 @@ input, select, textarea {
 
 				ul.actions li:first-child {
 					margin-top: 0;
+					width: 65vw;
 				}
 
 			ul.actions.major {
