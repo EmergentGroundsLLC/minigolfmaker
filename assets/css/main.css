@@ -2241,7 +2241,7 @@ input, select, textarea {
 		color: #fff;
 		text-align: center;
 		padding: 6em 0 6em 0;
-		top: -350px;
+		top: -153px;
 	}
 
 	#footer-wrapper {
@@ -2251,7 +2251,7 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
-		top: -350px;
+		top: -153px;
 	}
 
 /* Header */
