@@ -2562,6 +2562,11 @@ input, select, textarea {
 	}
 
 /* Normal */
+	@media screen and (max-width: 2000px) {
+		#header-wrapper {
+			padding: 2em 0 2em 0;
+		}
+	}
 
 	@media screen and (max-width: 1280px) {
 
@@ -2580,10 +2585,6 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 5em 0 5em 0;
-			}
-
-			#header-wrapper {
-				padding: 2em 0 2em 0;
 			}
 
 			.homepage #header-wrapper {
