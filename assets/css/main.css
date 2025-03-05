@@ -2130,8 +2130,7 @@ input, select, textarea {
 
 		.image-wrapper .image {
 			position: relative;
-			width: 250px;
-			width: 375px;
+			width: 19vw;
 			z-index: 2;
 		}
 
