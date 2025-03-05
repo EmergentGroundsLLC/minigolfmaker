@@ -2162,7 +2162,7 @@ input, select, textarea {
 
 	@media (max-width: 1080px) {
 	    #video {
-		width: 79%;
+		width: 77%;
         	height: 43.4vw !important;
 	  	z-index: 4 !important;
 	    }
@@ -2359,7 +2359,14 @@ input, select, textarea {
 	#hero-wrapper {
 		width: 100%;
 		background-color: #9b385e;
+		padding-top: 20vw;
 	}
+	@media (max-width: 430px) {
+		#hero-wrapper {
+			padding-top: 0vw;
+		}
+	}
+
 	#hero {
 		color: #fff;
 		position: relative;
@@ -2367,21 +2374,21 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-	@media (max-width: 736) {
+	/*@media (min-width: 666px) {
 		#hero {
-			top: -500px;
+			top: -500px !important;
 		}
 	}
-	@media (max-width: 390) {
+	@media (max-width: 390px) {
 		#hero {
-			top: -660px;
+			top: 0px !important;
 		}
 	}
-	@media (max-width: 375) {
+	@media (max-width: 375px) {
 		#hero {
-			top: -500px;
+			top: 0px;
 		}
-	}
+	}*/
 
 		#hero h2 {
 			position: relative;
