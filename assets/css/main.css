@@ -2120,8 +2120,8 @@ input, select, textarea {
 		background: #fff;
 		overflow-x: hidden;
 		padding: 30vh !important;
-		z-index: -1;
-		top: -185px;
+	    	padding-top: 15px !important;
+	    	z-index: 0;
 	}
 
 	.image-wrapper {
